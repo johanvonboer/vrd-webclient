@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#111">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>CADEAH</title>
+</head>
+<body>
+
+    
+    <div id="main-container">
+        <div style="grid-column: left-column;"></div>
+
+        <div id="flow-box">
+
+            <h1>Video Reuse Detector</h1>
+
+            <div id="uploadBox" class="wrapper-box">
+                <div class="wrapper-box-header-box"><h2>Video upload</h2><i class='material-icons minmaxbtn'>expand_less</i></div>
+                <div class="content">
+                    <form action="http://localhost:4000/upload" class="dropzone" id="video-dropzone"></form>
+
+                    <div id="upload-progress-bar">
+                        <div id="progress"></div>
+                        <div id="status"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div id="thGenBox" class="wrapper-box">
+                    <div class="wrapper-box-header-box"><h2>Th-Fingerprint extraction</h2><i class='material-icons minmaxbtn'>expand_less</i></div>
+                    <div class="content">
+                        <div class="description"></div>
+                        <ul class="points"></ul>
+                    </div>
+            </div>
+
+            <div id="thMatchBox" class="wrapper-box">
+                    <div class="wrapper-box-header-box"><h2>Th-Fingerprint matching</h2><i class='material-icons minmaxbtn'>expand_less</i></div>
+                    <div class="content">
+                        <div class="description"></div>
+                        <ul class="points"></ul>
+                    </div>
+            </div>
+
+            <div id="ccGenBox" class="wrapper-box">
+                    <div class="wrapper-box-header-box"><h2>CC-Fingerprint extraction</h2><i class='material-icons minmaxbtn'>expand_less</i></div>
+                    <div class="content">
+                        <div class="description"></div>
+                        <ul class="points"></ul>
+                    </div>
+            </div>
+
+            <div id="ccMatchBox" class="wrapper-box">
+                    <div class="wrapper-box-header-box"><h2>CC-Fingerprint matching</h2><i class='material-icons minmaxbtn'>expand_less</i></div>
+                    <div class="content">
+                        <div class="description"></div>
+                        <ul class="points"></ul>
+                    </div>
+            </div>
+
+            <!--
+            <div class="wrapper-box">
+                    <h2>Matching of thumbnail fingerprints</h2>
+            </div>
+
+            <div class="wrapper-box">
+                    <h2>Extraction of color fingerprints</h2>
+            </div>
+
+            <div class="wrapper-box">
+                    <h2>Matching of color fingerprints</h2>
+            </div>
+            -->
+
+        </div>
+
+        <div style="grid-column: left-column;"></div>
+
+
+    </div>
+
+    <div id="templates">
+        <div class='matchFrameContainer'>
+            <h3></h3>
+            <div class='matchFrame qFrame'>
+                <img class='frameImage qFrameImage' src='' />
+                <br />
+                <span class='frameInfo'></span>
+            </div>
+            <div class='matchFrame rFrame'>
+                <img class='frameImage rFrameImage' src='' />
+                <br />
+                <span class='frameInfo'></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
