@@ -35,7 +35,7 @@
     "dropzone": "^5.5.1",
     "express-fileupload": "^1.1.4",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-ui": "^1.12.1",
     "jquery-ui-bundle": "^1.11.4",
     "jquery.tabulator": "^3.5.1",
