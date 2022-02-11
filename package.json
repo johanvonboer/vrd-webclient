@@ -31,7 +31,7 @@
     "build:docs": "naturaldocs ND-Config"
   },
   "dependencies": {
-    "ajv": "^6.10.0",
+    "ajv": "^6.12.3",
     "dropzone": "^5.5.1",
     "express-fileupload": "^1.1.4",
     "font-awesome": "^4.7.0",
