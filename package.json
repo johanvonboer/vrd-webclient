@@ -42,7 +42,7 @@
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.11",
     "material-design-icons": "^3.0.1",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.5.0",
     "socketio-file-upload": "^0.7.0"
   },
   "devDependencies": {
